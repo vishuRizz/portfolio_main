@@ -74,8 +74,34 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import express from "./skills/express.png"
+import mongo from "./skills/mongo.png"
+import node from "./skills/node.png"
+import next from "./skills/next.png"
+import postgres from "./skills/postgres.png"
+import react from "./skills/react.png"
+import ts from "./skills/ts.png"
+import python from "./skills/python.png"
+import mainImg from "./main/main.jpeg"
+import myImg from "./main/myImg.jpeg"
+import myCoolPic from "./main/myCoolPic.png"
+import myLaptopPic from "./main/myLaptopPic.jpeg"
+import my_side from "./main/my_side.jpeg"
 
 export {
+  my_side,
+  myCoolPic,
+  myLaptopPic,
+  myImg,
+  mainImg,
+  python,
+  express,
+  mongo,
+  node,
+  next,
+  postgres,
+  react,
+  ts,
   brainwave,
   check,
   check2,

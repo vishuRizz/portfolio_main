@@ -71,6 +71,15 @@ export default {
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
+      keyframes: {
+        spin: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        spin: 'spin 9s linear infinite', 
+      },
     },
   },
   plugins: [
