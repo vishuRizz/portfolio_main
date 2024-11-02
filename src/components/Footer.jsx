@@ -1,26 +1,44 @@
 import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <Section crosses className="!px-0 !py-10">
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+      <div className="container flex items-center justify-center gap-10 sm:justify-between max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
-          © {new Date().getFullYear()}. All rights reserved.
+          © {new Date().getFullYear()}. VishuPratap
         </p>
 
-        <ul className="flex gap-5 flex-wrap">
-          {socials.map((item) => (
+        <ul className="flex flex-wrap gap-5">
             <a
-              key={item.id}
-              href={item.url}
-              target="_blank"
-              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+              href={'https://github.com/vishuRizz'}
+              className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
             >
-              <img src={item.iconUrl} width={16} height={16} alt={item.title} />
+            <FaGithub size={25}/>
             </a>
-          ))}
+            <a
+              href={'https://www.linkedin.com/in/vishu-pratap-soft-dev/'}
+              className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
+            >
+            <FaLinkedin size={25}/>
+            </a>
+            <a
+              href={''}
+              className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
+            >
+            <FaTwitter size={25}/>
+            </a>
+            <a
+              href={''}
+              className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
+            >
+            <RiInstagramFill size={25}/>
+            </a>
+         
         </ul>
       </div>
     </Section>

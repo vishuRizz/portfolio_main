@@ -47,8 +47,8 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "About",
-    url: "#features",
+    title: "About Me",
+    url: "#how-to-use",
   },
   {
     id: "1",
@@ -275,7 +275,7 @@ export const socials = [
   {
     id: "0",
     title: "GitHub",
-    iconUrl: "path/to/github/icon", // Replace with actual icon path
+    iconUrl: "path/to/github/icon", 
     url: "https://github.com/your-username",
   },
   {
