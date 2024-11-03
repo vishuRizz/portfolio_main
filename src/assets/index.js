@@ -89,8 +89,10 @@ import myLaptopPic from "./main/myLaptopPic.jpeg"
 import my_side from "./main/my_side.jpeg"
 import myPortrait from "./main/myPortrait.jpeg"
 import myLandscape from "./main/myLandscape.jpeg"
+import laptopMobile from "./main/laptopMobile.jpeg"
 
 export {
+  laptopMobile,
   myLandscape,
   myPortrait,
   my_side,

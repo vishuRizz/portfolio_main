@@ -1,5 +1,5 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Benefits from "./components/Projects";
+import Projects from "./components/Projects";
 import SkillSection from "./components/SkillSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -15,7 +15,7 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.6rem] overflow-hidden">
         <Header />
         <Hero />
-        <Benefits />
+        <Projects />
         <SkillSection />
         
         <Roadmap />

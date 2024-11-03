@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import { service2, service3, check, myLaptopPic, my_side, myPortrait } from "../assets";
+import { service2, service3, check, myLaptopPic, my_side, myPortrait, laptopMobile } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
@@ -45,16 +45,13 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={myLaptopPic}
+                src = {window.innerWidth >= 1224 ? myLaptopPic : laptopMobile} 
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="mb-4 text-black h4">ME</h4>
-              {/* <p className="body-2 mb-[3rem] font-bold text-black">
-                hehe will ofc write here something about me, for now just filling some shit 
-              </p> */}
-              <ul className="body-2">
+            {/* { window.innerWidth >=1220 ? <> <h4 className="mb-4 text-black h4">ME</h4>
+               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
@@ -64,7 +61,7 @@ const Services = () => {
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
-              </ul>
+              </ul> </> : " "} */}
             </div>
           </div>
 
@@ -72,7 +69,7 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={myPortrait}
+                src={myPortrait}
                   className="object-cover w-full h-full"
                   width={630}
                   height={750}

@@ -46,7 +46,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {item.light && <GradientLight />}
+                {/* {item.light && <GradientLight />} */}
 
                 <div
                   className="absolute inset-0.5 bg-n-8"
