@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
+      className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
@@ -66,20 +66,17 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        {/* <a
-          href="#signup"
-          className="hidden mr-8 transition-colors button text-n-1/50 hover:text-n-1 lg:block"
+        <Button
+          className="hidden text-sm lg:flex"
+          href="#contact"
         >
-          New account
-        </a> */}
-        <Button className="hidden text-sm lg:flex" href="#contact">
           Connect
         </Button>
 
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
-       
+          onClick={toggleNavigation} // Added this to toggle the menu
         >
           <MenuSvg openNavigation={openNavigation} />
         </Button>
