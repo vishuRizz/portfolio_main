@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "./Section";
-import { socials } from "../constants";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -27,13 +26,13 @@ const Footer = () => {
             <FaLinkedin size={25}/>
             </a>
             <a
-              href={''}
+              href={'https://x.com/vishuRizz'}
               className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
             >
             <FaTwitter size={25}/>
             </a>
             <a
-              href={''}
+              href={'https://www.instagram.com/vishuiuiuiuiu/'}
               className="flex items-center justify-center w-10 h-10 transition-colors rounded-full bg-n-7 hover:bg-n-6"
             >
             <RiInstagramFill size={25}/>

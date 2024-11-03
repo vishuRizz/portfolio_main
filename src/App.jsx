@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import ContactMe from "./components/ContactMe";
 
 const App = () => {
   return (
@@ -16,13 +17,12 @@ const App = () => {
         <Hero />
         <Benefits />
         <SkillSection />
-       
         {/* <Pricing /> */}
         <Roadmap />
         <Services />
+        {/* <ContactMe/> */}
         <Footer />
       </div>
-
       <ButtonGradient />
     </>
   );
