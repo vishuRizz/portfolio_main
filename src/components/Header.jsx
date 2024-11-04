@@ -76,7 +76,7 @@ const Header = () => {
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
-          onClick={toggleNavigation} // Added this to toggle the menu
+          onClick={toggleNavigation}
         >
           <MenuSvg openNavigation={openNavigation} />
         </Button>

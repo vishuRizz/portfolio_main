@@ -35,9 +35,9 @@ const Hero = () => {
             applications. With a solid foundation in the MERN stack and Next.js,
             I love crafting responsive websites and complex applications
           </p>
-          <Button href="/pricing" white>
+          {/* <Button href="/pricing" white>
             Get started
-          </Button>
+          </Button> */}
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl md:bg-conic-gradient">
