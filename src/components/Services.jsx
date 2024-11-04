@@ -109,17 +109,18 @@ const Services = () => {
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
+              <div className="relative h-[20rem] flex justify-center items-center bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                {/* <img
                   src={service3}
                   className="object-cover w-full h-full"
                   width={520}
                   height={400}
                   alt="Scary robot"
-                />
+                /> */}
 
-                {/* <VideoChatMessage /> */}
-                <VideoBar />
+                {/* <VideoChatMessage /> */} 
+               or photos dalunga yha meri
+                {/* <VideoBar /> */}
               </div>
             </div>
           </div>
